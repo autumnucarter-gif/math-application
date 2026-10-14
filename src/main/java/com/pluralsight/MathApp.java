@@ -16,6 +16,9 @@ public class MathApp {
         System.out.println("The lowest price between the car and truck is: " + smallestPrice);
 
         //3
+        double radius = 7.25;
+        double area = Math.pow(radius, 2);
+        System.out.println("The area is " + area);
 
 
 
@@ -24,5 +27,25 @@ public class MathApp {
         double myNum = 5.0;
         double squareRoot5 = Math.sqrt(myNum);
         System.out.println("The square root is " + squareRoot5);
+
+        //5 Find the distance between points (5, 10) and (85, 50)
+        // Distance formula: square root of (x2 - x1)^2 + (y2 - y1)^2
+        int x1 = 5, y1 = 10, x2 = 85, y2 = 50;
+        double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        System.out.println("The distance between the points is " + distance);
+
+
+        // Absolute Value
+        double negativeValue = -3.8;
+        double aboluteValue = Math.abs(negativeValue);
+        System.out.println("The absolute value is " + aboluteValue);
+
+        // Finding a random number
+        double randomNum = Math.random();
+        System.out.println("The random number is " + randomNum);
+
+
+
+
     }
 }
